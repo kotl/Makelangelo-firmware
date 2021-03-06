@@ -56,6 +56,7 @@
 #define BOARD_CNCV3        7  // Mega2560 + CNC Shield v3
 #define BOARD_ESP32        8  // ESP32 + Marginally Clever Polargraph PCB.
 #define BOARD_SKRPRO1_2    9  // SKR Pro 1.2
+#define BOARD_ARDUINO_UNO 10  // Simple 2 motors + servo through PINS
 
 // default value 
 // !! this is now handeled via pio.ini !!
@@ -96,6 +97,7 @@
 #include "boards/cncv3.h"
 #include "boards/esp32.h"
 #include "boards/skrpro.h"
+#include "boards/arduino_uno.h"
 
 #include "config_motors.h"
 
